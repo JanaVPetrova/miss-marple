@@ -1,5 +1,5 @@
 require "sweeper/version"
 
 module Sweeper
-  # Your code goes here...
+  autoload :Parser, "sweeper/parser"
 end
