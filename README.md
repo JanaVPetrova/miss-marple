@@ -1,4 +1,6 @@
 # Sweeper
+[![Coverage Status](https://coveralls.io/repos/JanaVPetrova/sweeper/badge.png)](https://coveralls.io/r/JanaVPetrova/sweeper)
+[![Build Status](https://travis-ci.org/JanaVPetrova/sweeper.png?branch=develop)](https://travis-ci.org/JanaVPetrova/sweeper)
 
 TODO: Write a gem description
 
