@@ -8,3 +8,6 @@ require 'rspec/autorun'
 
 RSpec.configure do |config|
 end
+
+require 'coveralls'
+Coveralls.wear!
