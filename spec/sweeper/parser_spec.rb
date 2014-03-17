@@ -8,7 +8,7 @@ describe Sweeper::Parser do
   it "reads manifest" do
     c = Sweeper::Parser.parse("spec/fixtures/app.css")
 
-    c.kind_of? Array
+    expect(c.class).to eq Array
     expect(c.length).to eq 2
   end
 end
