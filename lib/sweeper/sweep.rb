@@ -5,10 +5,7 @@ class Sweeper::Sweep
 
     searched = Sweeper::Searcher.search(dirs)
 
-    requires = []
-    searched.each do |filename|
-      requires += Sweeper::Parser.parse filename
-    end
+    requires = searched.inject([]){ |result, fname| result + Sweeper::Parser.parse(fname) }
 
     compared = Sweeper::Comparer.compare(requires, searched)
   end
