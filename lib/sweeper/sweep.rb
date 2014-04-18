@@ -8,5 +8,7 @@ class Sweeper::Sweep
     requires = searched.inject([]){ |result, fname| result + Sweeper::Parser.parse(fname) }
 
     compared = Sweeper::Comparer.compare(requires, searched)
+
+    Sweeper::Logger.log(compared)
   end
 end
