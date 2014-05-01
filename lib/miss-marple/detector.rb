@@ -1,6 +1,6 @@
 class MissMarple::Detector
   def self.run(rails_root)
-    dirs = ["app/assets", "lib/assets", "vendor/assets"]
+    dirs = ["/app/assets", "/lib/assets", "/vendor/assets"]
     dirs.map!{|path| rails_root + path}
 
     searched = MissMarple::Searcher.search(dirs)

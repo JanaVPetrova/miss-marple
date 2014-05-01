@@ -2,4 +2,4 @@
 # encoding: UTF-8
 require 'miss-marple'
 
-MissMarple::Detector.run "**/**"
+MissMarple::Detector.run Dir.pwd
