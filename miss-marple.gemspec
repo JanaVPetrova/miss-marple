@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'sweeper/version'
+require 'miss-marple/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "sweeper"
-  spec.version       = Sweeper::VERSION
+  spec.name          = "miss-marple"
+  spec.version       = MissMarple::VERSION
   spec.authors       = ["Jana Petrova"]
   spec.email         = ["janavpetrova@gmail.com"]
   spec.summary       = %q{Write a short summary. Required.}

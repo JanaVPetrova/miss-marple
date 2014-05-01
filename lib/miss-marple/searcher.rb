@@ -1,4 +1,4 @@
-class Sweeper::Searcher
+class MissMarple::Searcher
   def self.search(paths)
     files_and_dirs = paths.map{|path| Dir.glob("#{path}/**/*") }.flatten
 

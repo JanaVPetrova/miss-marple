@@ -1,4 +1,4 @@
-class Sweeper::Logger
+class MissMarple::Logger
   def self.log(unused, requiring)
     if unused.empty?
       puts "No unused assets!"

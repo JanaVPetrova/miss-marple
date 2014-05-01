@@ -1,4 +1,4 @@
-class Sweeper::Parser
+class MissMarple::Parser
   def self.parse(path)
     content = File.readlines(path)
     valuable_strings = content.reject{ |str| !str.include?("= require") }

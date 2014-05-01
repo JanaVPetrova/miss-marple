@@ -1,4 +1,4 @@
-class Sweeper::Comparer
+class MissMarple::Comparer
   def self.compare(parsed, searched)
     searched.map!{|fname| fname.split(".").first }
 

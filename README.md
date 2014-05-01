@@ -1,6 +1,6 @@
-# Sweeper
-[![Coverage Status](https://coveralls.io/repos/JanaVPetrova/sweeper/badge.png?branch=develop)](https://coveralls.io/r/JanaVPetrova/sweeper?branch=develop)
-[![Build Status](https://travis-ci.org/JanaVPetrova/sweeper.png?branch=develop)](https://travis-ci.org/JanaVPetrova/sweeper)
+# Miss Marple
+[![Coverage Status](https://coveralls.io/repos/JanaVPetrova/miss-marple/badge.png?branch=develop)](https://coveralls.io/r/JanaVPetrova/miss-marple?branch=develop)
+[![Build Status](https://travis-ci.org/JanaVPetrova/miss-marple.png?branch=develop)](https://travis-ci.org/JanaVPetrova/miss-marple)
 
 
 
@@ -10,7 +10,7 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 
-    gem 'sweeper'
+    gem 'miss-marple'
 
 And then execute:
 
@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install sweeper
+    $ gem install miss-marple
 
 ## Usage
 
@@ -26,7 +26,7 @@ TODO: Write usage instructions here
 
 ## Contributing
 
-1. Fork it ( http://github.com/JanaVPetrova/sweeper/fork )
+1. Fork it ( http://github.com/JanaVPetrova/miss-marple/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
