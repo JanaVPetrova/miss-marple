@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jana Petrova"]
   spec.email         = ["janavpetrova@gmail.com"]
   spec.summary       = "Detects unused assets"
-  spec.description   = "Detects unused assets"
+  spec.description   = "Miss Marple provides an easy way to detect unused assets"
   spec.homepage      = "https://github.com/JanaVPetrova/miss-marple"
   spec.license       = "MIT"
 
