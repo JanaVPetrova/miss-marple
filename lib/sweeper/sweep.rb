@@ -5,10 +5,15 @@ class Sweeper::Sweep
 
     searched = Sweeper::Searcher.search(dirs)
 
-    requires = searched.inject([]){ |result, fname| result + Sweeper::Parser.parse(fname) }
+    required = searched.inject([]){ |result, fname| result + Sweeper::Parser.parse(fname) }
 
-    compared = Sweeper::Comparer.compare(requires, searched)
+    # FIXME insert requiring into required. this is not a place for logic %)
+    # FIXME dirty hack
+    requiring = searched.reject(){ |fname| Sweeper::Parser.parse(fname).empty? }
+    searched -= requiring
 
-    Sweeper::Logger.log(compared)
+    unused = Sweeper::Comparer.compare(required, searched)
+
+    Sweeper::Logger.log(unused, requiring)
   end
 end

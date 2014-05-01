@@ -7,8 +7,10 @@ class Sweeper::Comparer
 
   private
   def self.search_similar(arr, searched_fname)
-    arr.each do |fname|
-      return true if searched_fname.match(/#{fname}$/)
+    arr.each do |path|
+      if searched_fname.end_with?(path) || searched_fname.start_with?(path)
+        return true
+      end
     end
     return false
   end

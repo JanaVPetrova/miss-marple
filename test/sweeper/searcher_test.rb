@@ -5,6 +5,6 @@ class Sweeper::SearcherTest < MiniTest::Unit::TestCase
     searcher = Sweeper::Searcher.search(["test/fixtures"])
 
     assert { searcher.class == Array }
-    assert { searcher.length == 2 }
+    assert { !searcher.empty? }
   end
 end

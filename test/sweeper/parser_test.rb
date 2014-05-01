@@ -6,9 +6,9 @@ class Sweeper::ParserTest < MiniTest::Unit::TestCase
   end
 
   def test_should_read_manifest
-    c = Sweeper::Parser.parse("test/fixtures/app.css")
+    c = Sweeper::Parser.parse("test/fixtures/tree/manifest.css")
 
     assert { c.class == Array }
-    assert { c.length == 2 }
+    assert { !c.empty? }
   end
 end
