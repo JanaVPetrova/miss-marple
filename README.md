@@ -4,25 +4,23 @@
 
 
 
-TODO: Write a gem description
+Miss Marple provides an easy way to detect unused assets
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'miss-marple'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install the gem:
 
     $ gem install miss-marple
 
 ## Usage
 
-TODO: Write usage instructions here
+Cd to your rails app directory
+
+    $ cd my-rails-app
+
+Run it:
+
+    $ miss-marple
 
 ## Contributing
 
