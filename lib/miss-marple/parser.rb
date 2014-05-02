@@ -1,7 +1,7 @@
 class MissMarple::Parser
   def self.parse(path)
     content = File.readlines(path)
-    valuable_strings = content.reject{ |str| !str.include?("= require") }
+    valuable_strings = content.select{ |str| str.include?("= require") }
 
     required = search_paths valuable_strings, path
     required += valuable_strings.map{ |str| str.partition("require ").last.chomp }
